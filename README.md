@@ -1,10 +1,9 @@
-# SYLVIA GLORIA MUCHA
-#### This portfolio describes the software developer that Sylvia Mucha is.
-#### By Sylvia Gloria Mucha
+# NAMING APP
+#### The application gives back the users' Akan name depending on the birthday
+#### By SYLVIA GLORIA MUCHA
 
 ## Description
-This portfolio describes Sylvia Mucha.Her capabilities,her likes,her competency,academic background,aspirations and her specific interests in the software development field.
-as a software developer.
+The naming app prompts the user to input the birthday and select the gender.The app then returns the Akan name of the user depending on the gender chosen.
 
 ## Setup/Installation Requirements
 1.Clone the repository
