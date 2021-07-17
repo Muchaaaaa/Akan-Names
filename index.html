@@ -19,14 +19,27 @@
         </p>
             <p>
                 <div class="form">
-                    <form>
-                        <label for="gender">Female:</label><br>
-                        <input type="text" id="Female" name="Female"><br>
-                        <label for="gender">Male:</label><br>
-                        <input type="text" id="Male" name="Male">
-                      </form>
-                </div>
-            </p>
+                    <form action="/action_page.php">
+                        <label for="birthday">Birthday:</label><br>
+                        <input type="date" id="birthday" name="birthday"><br>
+                        <button type="button" class="btn-btn-primary" onclick="onsubmit()">
+                        </button>
+                    </form>
+                </div>    
+            </p>   
+                <p>
+                    <div class="form">
+                        <form action="/action_page.php">
+                            <input type="radio" id="Male" name="GENDER" value="Male">
+                            <label for="Male">MALE</label><br>
+                            <input type="radio" id="Female" name="GENDER" value="Female">
+                            <label for="Female">Female</label><br>
+                        </form>
+                    </div>
+
+    
+    
+                </p>
     </div>
 
     
