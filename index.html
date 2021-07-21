@@ -19,22 +19,28 @@
         </p>
             <p>
             
-                <div class="form">
-                    <form action="/action_page.php">
-                        <label for="birthday">Birthday:</label><br>
-                        <input type="date" id="birthday" name="birthday"><br>
-                        
+                <div class="birthday">
+                    <br>
+                    <form>
+                        <label class="label">Date:</label><br>
+                        <input type="text" id="date" name="date" placeholder="e.g 26"><br>
+                        <label class="label">Month:</label><br>
+                        <input type="text" id="month" name="month" placeholder="e.g 06"><br>
+                        <label class="label">year:</label><br>
+                        <input type="text" id="year" name="year" placeholder="e.g 2001">
                     </form> 
+                </div>
                         <br>
-                    Choose your gender<br>
+                        <br>
                     
-                        <form action="/action_page.php">
-                            <input type="radio" id="Male" name="GENDER" value="Male">
-                            <label for="Male">MALE</label><br>
-                            <input type="radio" id="Female" name="GENDER" value="Female">
-                            <label for="Female">Female</label><br>
-                            <button type="button" class="btn-btn-primary" onclick="onsubmit()">Submit
-                            </button>
+                     <div class="form">
+                        <b>Enter your gender</b><br>
+                        <form>
+                            
+                            <label class="label">Gender:</label><br>
+                            <input type="text" id="gender" name="gender"><br>
+                            <br>
+                            <button onclick="onsubmit()">Submit</button>
                         </form>
                     </div>
                 </p>
