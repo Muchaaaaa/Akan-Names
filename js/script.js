@@ -4,7 +4,7 @@ const akanfemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 function getDate() {
 
-    let dateOutput = document.getElementById("dob").value;
+    let dateOutput = document.getElementById("DOB").value;
     console.log(dateOutput);
 
     let male = document.getElementById("male");
@@ -55,11 +55,11 @@ function validateForm() {
     getDate();
     if (male.checked) {
         console.log(akanmale[y]);
-        document.getElementById("DISPLAY").innerHTML = "Your Akan Name is " + "<span>" + akanmale[y] + "</span>" + "<br>" + "IT MEANS YOU WERE  BORN ON a " + date.toLocaleString('en-us', { weekday: 'long' });
+        document.getElementById("DISPLAY").innerHTML = "Your Akan Name is " + "<span>" + akanmale[y] + "</span>" + "<br>" + "Meaning you were born on a " + date.toLocaleString('en-us', { weekday: 'long' });
     }
     else if (female.checked) {
         console.log(akanfemale[y]);
-        document.getElementById("DISPLAY").innerHTML = "Your Akan Name is " + "<span>" + akanfemale[y] + "</span>" + "<br>" + "IT MEANS YOU WERE BORN ON a " + date.toLocaleString('en-us', { weekday: 'long' });
+        document.getElementById("DISPLAY").innerHTML = "Your Akan Name is " + "<span>" + akanfemale[y] + "</span>" + "<br>" + "Meaning you were born on a " + date.toLocaleString('en-us', { weekday: 'long' });
     }
 }
 
