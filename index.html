@@ -18,41 +18,44 @@
             </div>
         </p>
             <p>
-            
-                <div class="birthday">
-                    <br>
-                    <form >
-                        <label class="label">Date:</label><br>
-                        <input type="number" id="date1" name="b-date" placeholder="e.g 26"><br>
-                        <label class="label">Month:</label><br>
-                        <input type="number" id="month1" name="b-month" placeholder="e.g 06"><br>
-                        <label class="label">year:</label><br>
-                        <input type="number" id="year1" name="b-year" placeholder="e.g 2001">
-                       
-                    
-                </div>
-                        <br>
-                        <br>
-                    
-                     <div class="form">
-                        <b>Enter your gender</b><br>
-                    
-                    
-                            <label class="label">Gender:</label><br>
-                            <input type="text" id="gender" name="gender"><br>
-                            <br>
-                            <div>
-                            <button type="button" onclick="declare()">Submit</button>
-                </div>
-                       
+                <div class="form-group">
+                    <div>
+                        <label for="DATE OF BIRTH">DATE OF BIRTH;</label>
                     </div>
-                    </form>
-                       
+                    <div>
+                        <input type="date" class="" placeholder="date" id="dob">
+                    </div>
+                </div>
+        
+                <p class="content-heading">Select your Gender</p>
+                <div class="gender-select">
+                    <div>
+                        <label><input type="radio" name="gender" id="male" value="Male">Male</label>
+                    </div>
+        
+                    <div>
+                        <label><input type="radio" name="gender" id="female" value="Female">Female</label>
+                    </div>
+                </div>
+        
+        
+                <button type="button" class="btn btn-primary" onclick="onSubmit()">GET NAME </button>
+                </form>
+        
+        
+                <div>
+                    <p id="DISPLAY"></p>
+                </div>
+            </div>
+        
+            
+                
                 </p>
                 <span class="img-container">
                     <img src="images/butterfly image.jpg" width="900" height="350">
                 </span>
                 </p>
+                
     </div>
     <script src="js/script.js"></script>
     
